@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Biblioteca</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>XYZ LTDA</title>
 
+  </head>
+  <body>
+    <header>
+      <h2>XYZ LTDA</h2>
+    </header>
 
+    <main>
+      <form>
+          <h2>Cadastrar Funcionarios</h2>
 
-  <script src="./scripts.js"></script>
-</body>
+          <div class="input-data">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome"/>
+          </div>
+
+          <div class="input-data">
+            <label for="Tecnologias">Tecnologias</label>
+            <input type="text" id="tecnlogias"/>
+          </div>
+
+          <div class="input-data">
+            <label for="ano">Biografia</label>
+            <input type="text" id="biografia"/>
+          </div>
+
+          <div class="input-data">
+            <label for="imagem">Imagem</label>
+            <input type="text" id="imagem"/>
+          </div>
+
+          <button id="botao-cadastrar">
+            Cadastrar
+          </button>
+
+          <button id="botao-deletar">
+            Deletar
+          </button>
+
+      </form>
+
+      <aside id="Funcionarios">
+      </aside>
+    </main>
+  </body>
 </html>
